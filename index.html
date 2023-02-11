@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mariano</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Perfil.png" alt="">
+            </div>
+            <h1>Mariano Duarte</h1>
+            <h2>Developer Front End</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-square-rss"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Hola, soy Mariano Duarte</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam illum iure corporis, facilis ipsa inventore velit incidunt officia, fugiat culpa ducimus corrupti dolores odit rem repellat consequatur quisquam, ipsam explicabo.</p>
+
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            09 - 01 - 1991
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3764 565367
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Mariano.91.Duarte@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCER</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-book"></i>
+                            <span>LEER</span>
+                        </div> 
+                        <div class="interes">
+                            <i class="fa-duotone fa-basketball"></i>
+                            <span>BASKET</span>
+                        </div> 
+                        <div class="interes">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>INVESTIGAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-thin fa-chart-pie"></i>
+                            <span>EMPRESAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>skills</h2>
+            <div class="fila">
+                <!-- technical skills -->
+                <div class="col">
+                    <h3>Skill Tecnicos</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- professional skills -->
+                <div class="col">
+                    <h3>Skill Tecnicos</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion & Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <SEction id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Arte y multimedia</h4>
+                        <span class="casa">Universidad Nacional de Misiones</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos perferendis reprehenderit dolor fuga eveniet ducimus asperiores incidunt quae laboriosam.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y multimedia</h4>
+                        <span class="casa">Universidad Nacional de Misiones</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos perferendis reprehenderit dolor fuga eveniet ducimus asperiores incidunt quae laboriosam.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y multimedia</h4>
+                        <span class="casa">Universidad Nacional de Misiones</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos perferendis reprehenderit dolor fuga eveniet ducimus asperiores incidunt quae laboriosam.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Universidad Nacional de Misiones</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos perferendis reprehenderit dolor fuga eveniet ducimus asperiores incidunt quae laboriosam.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Universidad Nacional de Misiones</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos perferendis reprehenderit dolor fuga eveniet ducimus asperiores incidunt quae laboriosam.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Universidad Nacional de Misiones</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos perferendis reprehenderit dolor fuga eveniet ducimus asperiores incidunt quae laboriosam.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </SEction>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccio">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/img1.jpg" alt="im1">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img2.jpg" alt="im2">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img3.jpg" alt="im3">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img4.jpg" alt="im4">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img5.jpg" alt="im5">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img6.jpg" alt="im6">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- formulari -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Numero">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <div class="col">
+                    <img src="img/map.avif" alt="asd" class="mapi">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                Argentina Posadas 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Comunicate: 123 123123
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                                Email: Ejemplo@Ejemplo.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-square-rss"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+</html>
