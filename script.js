@@ -34,3 +34,11 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 }
+
+let botonFree = document.querySelector('.boton-free'); 
+
+botonFree.addEventListener('click', mensaje);
+
+function mensaje() {
+    alert('Frontend Developer')
+};

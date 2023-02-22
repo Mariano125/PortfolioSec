@@ -134,7 +134,8 @@ html{
 }
 .sobremi .contenido-seccion p span{
     color: #1CB698;
-    font-weight: bold
+    font-weight: bold;
+    
 }
 .sobremi .fila{
     display: flex;
@@ -163,6 +164,7 @@ html{
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
@@ -305,7 +307,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 75%;}
 }
 .skills .skill .trabajoenequipo{
     width: 0%;
