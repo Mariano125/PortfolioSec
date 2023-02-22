@@ -40,5 +40,13 @@ let botonFree = document.querySelector('.boton-free');
 botonFree.addEventListener('click', mensaje);
 
 function mensaje() {
-    alert('Frontend Developer')
+    alert('Esperando nuevos desafios.')
+};
+
+let botonLogo = document.querySelector('.boton-logo'); 
+
+botonLogo.addEventListener('click', mensaje2);
+
+function mensaje2() {
+    alert('Frontend Developer.')
 };
